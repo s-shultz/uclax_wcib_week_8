@@ -1,2 +1,123 @@
 body {
+
+  font-family: 'Montserrat', sans-serif;
+  background: rgb(12,179,248);
+
+  .cover-heading {
+    background: rgb(12,179,248);
+  }
+
+  .hero-image {
+      background: rgb(12,179,248);
+    }
+
+    .price {
+      background: white;
+      border-radius: 5px;
+      padding-top: 20px;
+      padding-bottom: 10px;
+      &.alt {
+        background: #0cb3f8;
+      }
+    }
+
+
+
+  }
+  .bgColor {
+        background-color: white;
+      }
+
+    /* Links */
+  a,
+  a:focus,
+  a:hover {
+    color: #fff;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  /*
+   * Header
+   */
+  .masthead {
+    margin-right: 97px;
+    margin-bottom: 47px;
+  }
+
+  .navbar-brand {
+    font-weight: 700;
+    margin-left: 98px;
+    margin-bottom: 47px;
+
+  }
+
+  .nav-masthead .nav-link {
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+
+  }
+
+
+  .nav-masthead .active {
+    color: #fff;
+
+  }
+  .nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  text-decoration: underline;
+  text-decoration-color: #fff;
+  text-decoration-style: solid;
+}
+
+  @media (min-width: 48em) {
+    .masthead-brand {
+      float: left;
+    }
+    .nav-masthead {
+      float: right;
+    }
+  }
+ }
+
+
+
+ /*
+  * fonts
+  */
+  .cover-heading {
+    margin-top: 145px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 70pt;
+    color: #fff;
+
+  }
+
+  .lead {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 21pt;
+    margin-right: 420px;
+    margin-bottom: 100px;
+    color: #fff;
+  }
+
+  /*
+   * buttons
+   */
+.btn-outline-light, {
+  padding: 10px;
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-bottom: 13px;
+  font-size: 10pt;
+}
+
+button {
+  font-size: 10pt;
+  color: #fff;
+}
+
 }
