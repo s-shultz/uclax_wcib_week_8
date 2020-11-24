@@ -312,7 +312,7 @@ body .price {
    }
 
 .form-group {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/images/cliffs.png');
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/cliffs.png');
   margin-top: 0px;
   padding-top: 65px;
   background-size: contain;
