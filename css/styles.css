@@ -1,23 +1,36 @@
 body {
   font-family: 'Montserrat', sans-serif;
   background: rgb(12,179,248);
+  max-width: 1185px;
 }
   .container-fluid {
     background: white;
     padding-top: 21px ;
-    margin-top: 109px;
-
-  }
+    margin-top: -50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    #footer {
+      margin-top: -25px;
+    }
 
   .container-fluid2 {
     background: #f5f4f4;
     padding-top: 21px;
     padding-bottom: 100px;
+    min-width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .container-fluid3 {
     background-color: #222222;
     padding-bottom: 109px;
+
   }
 
   /* Links */
@@ -156,6 +169,9 @@ h3 {
   text-align: center;
   margin-bottom: 18px;
 }
+h3#alt1 {
+  color: white;
+}
 
 h4 {
   color: #242526;
@@ -186,14 +202,14 @@ h6 {
   font-size: 11pt;
 }
 
-#price {
+#price, #price1 {
   color: #242526;
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
   font-size: 12pt;
   text-align: center;
   margin-bottom: 53px;}
-  #alt {
+  #alt2 {
     color: white;
   }
 
@@ -207,7 +223,7 @@ ul {
   list-style: none;
   text-align: center;
   margin-left: -55px;}
-  ul#alt {
+  ul#alt3 {
     color: white;
     margin-top: 50px;
   }
@@ -218,7 +234,7 @@ ul li:before {
   color: #4bc056;
 }
 
-p #price{
+p #price, {
     color: white;
   }
 }
@@ -233,7 +249,7 @@ p #price{
      padding-right: 24px;
      padding-left: 24px;
      padding-bottom: 13px;
-     margin-bottom: 110px;
+     margin-bottom: 98px;
      font-size: 10pt;
      font-family: 'Montserrat', sans-serif;
      color: #ffffff !important; }
@@ -245,6 +261,7 @@ p #price{
   padding-left: 19px;
   padding-right: 19px;
   margin-right: 32px;
+  margin-left: 98px;
   box-shadow: .5px .5px 8px #1b8bf9;
   font-size: 9pt;
   font-family: 'Montserrat', sans-serif;
@@ -315,6 +332,7 @@ body .price {
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/cliffs.png');
   margin-top: 0px;
   padding-top: 65px;
+  padding-bottom: 97px;
   background-size: contain;
   position: relative;
   display: block;
@@ -324,7 +342,9 @@ body .price {
 .mb-3 {
   max-width: 467px;
   display: inline-flex;
-  margin-bottom: 98px;}
+  margin-bottom: 98px;
+  margin-left: 98px;
+}
 
 
 #my_form {
@@ -347,14 +367,18 @@ footer {
   background: #ffffff;
   margin-top: 98px;}
   .d-block {
+    justify-content: space-around;
     margin-top: 75px;
     font-family: 'Montserrat', sans-serif;
     font-size: 11pt;
     width: 300px;}
     .col-6.col-md {
-      margin-left: -50px;
+      width: 420px;
+      margin-left: -100px;
+      justify-content: space-around;
+
     }
-  #my_icon {
+  #my_icon, #my_icon2, #my_icon3 {
     margin-left: 19px;
   }
 #my_copy {
@@ -365,4 +389,8 @@ footer {
   margin-right: -80px;
   margin-top: 80px;
 
+}
+
+#blacklogo {
+  margin-left: 98px;
 }
